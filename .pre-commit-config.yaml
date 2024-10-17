@@ -40,9 +40,10 @@ repos:
     hooks:
       # Run the linter.
       - id: ruff
-      # Run the formatter.
-      - id: ruff-format
+        # Run the formatter.
   - repo: https://github.com/google/yamlfmt
+    #      - id: ruff-format
+
     rev: v0.13.0
     hooks:
       - id: yamlfmt
